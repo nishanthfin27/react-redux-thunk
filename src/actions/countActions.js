@@ -1,0 +1,15 @@
+//single export - export default variable
+
+//multiple exports
+
+export const increment = () => {
+    return {
+        type: 'INCREMENT'
+    }
+}
+
+export const decrement = () => {
+    return {
+        type: 'DECREMENT'
+    }
+}
